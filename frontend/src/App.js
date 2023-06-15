@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Post from "./Component/Post";
+import Post from "./Components/Post";
 
 function App() {
   let [data, setData] = useState([]);
@@ -45,9 +45,9 @@ export default App;
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Component/Home';
-import About from './Component/About';
-import NotFound from './Component/NotFound';
+import Home from './Components/Home';
+import About from './Components/About';
+import NotFound from './Components/NotFound';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
